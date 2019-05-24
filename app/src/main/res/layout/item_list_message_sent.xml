@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp">
+
+    <RelativeLayout
+        android:layout_marginStart="58dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:padding="8dp"
+            android:id="@+id/relative_chat_me"
+            android:background="@drawable/rounded_rectangle_me"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:text="Lorem ipsum dolor"
+                android:id="@+id/item_message_sent_message_body"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="4dp"
+            android:id="@+id/item_message_sent_tanggal_post"
+            android:layout_below="@id/relative_chat_me"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

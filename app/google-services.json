@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "887563982091",
+    "firebase_url": "https://firechat-38deb.firebaseio.com",
+    "project_id": "firechat-38deb",
+    "storage_bucket": "firechat-38deb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887563982091:android:31c626a99bb704aa",
+        "android_client_info": {
+          "package_name": "com.ydhnwb.firechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887563982091-tnoe6ae9d0o70ph3vrg9g1umc6234n1k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ5ePPM1VHEnBN_lxvNb7mxl3ePD7vzIc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

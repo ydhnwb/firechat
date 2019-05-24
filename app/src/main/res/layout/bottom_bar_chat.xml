@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_alignParentTop="true"
+            android:background="#bdbdbd"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:maxLines="6"
+                android:id="@+id/text_chat"
+                android:hint="Type a message"
+                android:layout_weight="9.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:id="@+id/send_chat"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/ic_action_send"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
